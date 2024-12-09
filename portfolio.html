@@ -21,6 +21,42 @@
             </button>
         </nav>
     </header>
+    <section class="grid-main sobre">
+        <div class="green-block"></div>
+        <img src="/assets/desktop/site.png" 
+        alt="Imagem de um site." 
+        width="661"
+        height="527"
+        class="sobre-img portfolio">
+        <div class="sobre-text" id="portfolio"> 
+            <h2 id="title">Site Pessoal</h1>
+            <p> site pessoal utilizando apenas HTML, CSS puro e JavaScript, 
+                com foco em uma interface limpa e responsiva.
+                 O projeto destaca minhas habilidades em desenvolvimento front-end 
+                e serve como um portfólio para exibir minha trajetória e interesses. </p>
+                <button class="button green" id="btn-site">
+                    Acesse Aqui
+                </button>
+        </div>
+    </section>
+    <section class="grid-main sobre">
+        <div class="green-block"></div>
+        <img src="/assets/desktop/e-cidade.png" 
+        alt="Logo-tipo do e-cidade." 
+        width="349"
+        height="263"
+        class="sobre-img portfolio">
+        <div class="sobre-text" id="portfolio"> 
+            <h2 id="title">Estágio DbSeller</h1>
+            <p>Atualmente, atuo como estagiário na DbSeller, 
+                onde contribuo para o desenvolvimento de soluções e melhorias no software livre e-Cidade,
+                 atendendo às demandas específicas dos clientes. Minhas atividades envolvem o uso de tecnologias como PHP, Vue.js, Laravel e PostgreSQL, com foco em oferecer suporte e aprimoramento contínuo ao sistema. 
+            </p>
+            <button class="button green" id="btn-e-cidade">
+                Acesse Aqui
+            </button>
+        </div>
+    </section>
 </body>
 </html>
 <script>
@@ -30,5 +66,12 @@
     });
     document.getElementById('btn-contato').addEventListener('click', () => {
         window.location.href = 'contato.html';
+    });
+
+    document.getElementById('btn-site').addEventListener('click', () => {
+        window.location.href = 'https://github.com/BilPinheiro/DesenvolvimentoWeb';
+    });
+    document.getElementById('btn-e-cidade').addEventListener('click', () => {
+        window.location.href = 'https://www.dbseller.com.br/';
     });
 </script>
