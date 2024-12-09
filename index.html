@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gabriel Pinheiro</title>
+</head>
+<body>
+    <header >
+        <nav class="grid-main topnav">
+            <img class="header-img" 
+                id="home"
+                src="/assets/desktop/gp.jpg"
+                alt="Logo com as letras GP"
+                width="728"
+                height=736
+                />
+            <button class="button brown" id="btn-contato">
+                Contato
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="grid-main hero">
+                <div class="hero-text">   
+                    <h1 id="title">Gabriel Pinheiro</h1>
+                    <p id="description">uma breve introdução sobre Mim
+                        com muitas informações sobre o que eu gosto de fazer e assim vai.
+                        bem rezumido. se quiser mais informações clica no sobre mim.
+                    </p>
+                        <button class="button green" id="btn-sobre">
+                            Sobre Mim
+                        </button>
+                        <p id="info"><strong id="caps">Algo Pontual</strong></p>
+                </div>
+                <img src="/assets/desktop/minha_foto.jpg" 
+                alt="Foto de Gabriel Pinheiro" 
+                width="584"
+                height="584"
+                class="hero-img flush-rigth">
+            <div class="green-block"></div>
+        </section>
+        <section class="grid-main portfolio">
+                <div class="green-block"></div>
+                <img src="/assets/desktop/portfolio2.jpg" 
+                alt="Notebook com códigos de programação" 
+                width="406"
+                height="512"
+                class="portfolio-img flush-left">
+                <img src="/assets/desktop/trabalho.jpg" 
+                alt="Homem programando no notebook usando uma tela extra." 
+                width="2121"
+                height="1414"
+                class="portfolio-img">
+                <div class="portfolio-text" id="portfolio"> 
+                    <h2 id="title">Portfólio e Experiência</h1>
+                    <p>Um pouco sobre minha experiência de trabalho
+                        e portoflio que venho desenvolvendo.
+                    </p>
+                </div>
+            </section>
+       
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+<script>
+    //Scripts do header
+    document.getElementById('home').addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
+    document.getElementById('btn-contato').addEventListener('click', () => {
+        window.location.href = 'contato.html';
+    });
+
+    document.getElementById('btn-sobre').addEventListener('click', () => {
+        window.location.href = 'sobre.html';
+    });
+    document.getElementById('portfolio').addEventListener('click', () => {
+        window.location.href = 'portfolio.html';
+    });
+</script>

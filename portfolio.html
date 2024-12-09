@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header >
+        <nav class="grid-main topnav">
+            <img class="header-img" 
+                id="home"
+                src="/assets/desktop/gp.jpg"
+                alt="Logo com as letras GP"
+                width="728"
+                height=736
+                />
+            <button class="button brown" id="btn-contato">
+                Contato
+            </button>
+        </nav>
+    </header>
+</body>
+</html>
+<script>
+    //Scripts do header
+    document.getElementById('home').addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
+    document.getElementById('btn-contato').addEventListener('click', () => {
+        window.location.href = 'contato.html';
+    });
+</script>

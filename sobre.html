@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header >
+        <nav class="grid-main topnav">
+            <img class="header-img" 
+                id="home"
+                src="/assets/desktop/gp.jpg"
+                alt="Logo com as letras GP"
+                width="728"
+                height=736
+                />
+            <button class="button brown" id="btn-contato">
+                Contato
+            </button>
+        </nav>
+    </header>
+    <section class="grid-main sobre">
+        <div class="green-block"></div>
+        <img src="/assets/desktop/trabalho.jpg" 
+        alt="Homem programando no notebook usando uma tela extra." 
+        width="2121"
+        height="1414"
+        class="sobre-img">
+        <div class="sobre-text" id="portfolio"> 
+            <h2 id="title">Um pouco sobre mim</h1>
+            <p>Olá, me chamo Gabriel Pinheiro, nascido em 21/10/1994, nascido em Nova Friburgo/Rj.
+               Atualmente tenho 3 gatinhos e uma cachorrinha que tem grande influencia em tornar meus dias mais felizes. 
+            </p>
+        </div>
+    </section>
+    <section class="grid-main sobre">
+        <div class="sobre-text two" id="portfolio"> 
+            <h2 id="title">Um pouco sobre mim</h1>
+                <p>Olá, me chamo Gabriel Pinheiro, nascido em 21/10/1994, nascido em Nova Friburgo/Rj.
+                    Atualmente tenho 3 gatinhos e uma cachorrinha que tem grande influencia em tornar meus dias mais felizes. 
+                </p>
+            </div>
+            <div class="green-block two"></div>
+            <img src="/assets/desktop/trabalho.jpg" 
+            alt="Homem programando no notebook usando uma tela extra." 
+            width="2121"
+            height="1414"
+            class="sobre-img two">
+    </section>
+</body>
+</html>
+<script>
+    //Scripts do header
+    document.getElementById('home').addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
+    document.getElementById('btn-contato').addEventListener('click', () => {
+        window.location.href = 'contato.html';
+    });
+</script>

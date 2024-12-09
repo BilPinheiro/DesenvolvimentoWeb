@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato Gabriel Pinheiro</title>
+</head>
+<body>
+    <header >
+        <nav class="grid-main topnav">
+            <img class="header-img" 
+                id="home"
+                src="/assets/desktop/gp.jpg"
+                alt="Logo com as letras GP"
+                width="728"
+                height=736
+                />
+            <button class="button brown" id="btn-contato">
+                Contato
+            </button>
+        </nav>
+    </header>
+    <section class="grid-main hero">
+        <div class="hero-text">   
+            <h1 id="title">Formas de Contato:</h1>
+            <p id="description"><strong>Email:</strong>prod.gabriel.pinheiro@gmail.com
+            </p>
+            <p id="description"><strong>Telefone:</strong>(22) 99848-45XX
+            </p>
+            <p id="description"><strong>LinkedIn/</strong> <a href="https://www.linkedin.com/in/gabriel-pinheiro-358b6986/">GabrielPinheiro</a>
+            </p>
+            <p id="description"><strong>Github/</strong> <a href="https://www.github.com/BilPinheiro">BilPinheiro</a>
+            </p>
+        </div>
+        <img src="/assets/desktop/minha_foto.jpg" 
+        alt="Foto de Gabriel Pinheiro" 
+        width="584"
+        height="584"
+        class="hero-img flush-rigth">
+    <div class="green-block"></div>
+</section>
+</body>
+</html>
+<script>
+    //Scripts do header
+    document.getElementById('home').addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
+    document.getElementById('btn-contato').addEventListener('click', () => {
+        window.location.href = 'contato.html';
+    });
+</script>
